@@ -7,6 +7,21 @@ This project is a preliminary analysis of megaline rates: Ultimate and Surf, bas
 Customer behavior will be analyzed and with this it will be determined which prepaid rate generates the most income.
 Determining which plan, on average, brings in more income is a question that will be addressed through statistical testing.
 
+## General conclusions after data analysis:
+1. *With the statistical analysis of the behavior of users in calls, messages and internet by plans, it is concluded that*:
+     - For calls, in both plans the average number of monthly calls is around 6. The average number of monthly minutes is around 8.3 and the variance is around 28 in both cases.
+     - For sending messages, the mean and variance behavior is also very similar. However, we can consider some surf plan users atypical, as they send many more messages than their plan covers. These users could probably be convinced to change their plan to ultimate, or adapt the surf plan to meet the needs of these users.
+     - For internet use, we see that there is no difference in the behavior of the users, both groups of users use around 17 GB per month and the monthly internet traffic has a variance of around 60. However, it is evident that for the surf plan, this average exceeds the data included in the plan, so many users end up paying an extra cost for internet use.
+
+
+2. *With the statistical analysis of the profit we see that the profits for each plan have a different mean and variance. This is confirmed by the hypothesis test, which tells us that there is indeed a difference between the profits of both plans.*
+     - With these results it is concluded that although the average monthly income is a little higher in the ultimate plan, the surf plan has more users, and given that both groups of users demand a very similar data plan, minutes and messages, *I could recommend focus advertising and marketing strategies on this plan and also, extend the coverage of the surf plan in gigabytes and megabytes, to better meet the needs of the user population in general, since in this way, users will be more convinced of hiring the plan by not having to pay extra fees.*
+
+ 
+3. *Similarly, when doing a hypothesis test to find out if the average earnings of the NY-NJ region are different from those of the other regions combined, we obtain a difference in these earnings as a result.*
+     - This shows that the income obtained from a densely populated region such as NY-NJ cannot be compared with the income obtained from users in other regions, since the difference between income is clearly significant and even greater for the other regions, So, if we want to equalize profits in the NY-NJ region, a sales and/or advertising strategy should focus on this sector.
+___
+
 ## Rates Description
 
 **Note**: Megaline rounds seconds to minutes and megabytes to gigabytes. For calls, each individual call is rounded up: even if the call lasted only a second, it will be counted as a minute. For web traffic, individual web sessions are not rounded. Instead, the total for the month is rounded up. If someone uses 1025 megabytes this month, they will be charged for 2 gigabytes.
